@@ -27,7 +27,7 @@ public class ExamenEstructurasAlmacenamiento {
 	 */
 	public static void main(String[] args) {
 		try {
-			
+			int valorDeFuncionalidad1 = 0;
 			Scanner sc = new Scanner(System.in);
 			
 			System.out.println("Bienvenido al programa Colegio 1.0.");
