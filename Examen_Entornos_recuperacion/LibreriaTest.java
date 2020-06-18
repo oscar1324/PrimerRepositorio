@@ -30,7 +30,7 @@ class LibreriaTest {
 		String resultado = libreriia.eliminarEjemplarLibro();
 		assertEquals("0", resultado);
 		assertNull(resultado);
-		
+		assertThrows(IllegalArgumentException.class, () -> {new eliminarEjemplarLibro(null);});
 	}
 	
 	@Test
