@@ -3,12 +3,9 @@ package com.java.funcionalidad;
 import com.java.excepciones.LibreriaException;
 
 public class Libro {
-<<<<<<< HEAD
-	
-	int nuevoValor = 45;
-=======
+
 	private String idea;
->>>>>>> refs/heads/Funcionalidad
+
 	private int id;
 	private String titulo;
 	private int numEjemplares;
