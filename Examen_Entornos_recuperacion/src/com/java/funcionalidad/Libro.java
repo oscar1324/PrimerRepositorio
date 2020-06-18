@@ -3,7 +3,8 @@ package com.java.funcionalidad;
 import com.java.excepciones.LibreriaException;
 
 public class Libro {
-
+	
+	int nuevoValor = 45;
 	private int id;
 	private String titulo;
 	private int numEjemplares;
